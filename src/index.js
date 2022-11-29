@@ -1,4 +1,3 @@
-const { spawnSync } = require('child_process');
 const path = require('path');
 const util = require('util');
 const fsPromises = require('fs').promises;
@@ -39,7 +38,6 @@ const getRequestConfig = (content) => {
 };
 
 const getDetectedText = (results) => {
-    // const { data: { results: [{ results: [{ textDetection }] }] } } = response;
     const { results: [{ textDetection }]} = results[0];
 
     const detectedText = textDetection.pages.map(({ blocks }) => {
