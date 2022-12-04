@@ -16,3 +16,6 @@ Before run screenshot app you should install gnome-screenshot tool:
 Run programm:
 
 - screen-text-decoder
+
+
+TODO: add command line option with API_AUTH_TOKEN
