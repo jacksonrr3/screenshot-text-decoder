@@ -4,7 +4,7 @@ const fsPromises = require('fs').promises;
 const exec = util.promisify(require('node:child_process').exec);
 const axios = require('axios');
 
-const API_SERVICE_KEY = 'AQVNx34OzTyfXn9B6JX-JWQKIgQaP9Akel0Aa6Rh';
+const API_SERVICE_KEY = '';
 const batchAnalyze = 'https://vision.api.cloud.yandex.net/vision/v1/batchAnalyze';
 
 const screenShotFileName = '../screenShot.png';
